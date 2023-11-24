@@ -1,5 +1,5 @@
 # Springboard
-This is my Rails 7 (Currently 7.2) starting point. Out of the box setup includes: 
+This is my Rails 7 (Currently 7.1.2) starting point. Out of the box setup includes: 
 
 - Ruby 3.2.0
 - Devise Authentication (with Devise Invitable)
