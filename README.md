@@ -13,7 +13,8 @@ On M1/M2 mac:
     ```
 
 - httparty
-- phonelib 
+- phonelib
+- mail_form 
 - better_errors (dev)
 - letter_opener (dev)
 - rails_live_reload (dev)
@@ -27,3 +28,6 @@ On M1/M2 mac:
 * How to run the test suite
 * Services (job queues, cache servers, search engines, etc.)
 * Deployment instructions
+
+1. Bundle
+2. Update `new_app_name` everywhere (before you create databases etc)
