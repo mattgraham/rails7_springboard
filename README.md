@@ -29,5 +29,7 @@ On M1/M2 mac:
 * Services (job queues, cache servers, search engines, etc.)
 * Deployment instructions
 
+# Getting Started
 1. Bundle
 2. Update `new_app_name` everywhere (before you create databases etc)
+3. 
