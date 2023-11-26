@@ -11,13 +11,13 @@
   </head>
 
   <body>
-    <%= if notice? %>
+    <% if notice %>
       <p class="notice"><%= notice %></p>
-    <% elsif alert? %>
+    <% elsif alert %>
       <p class="alert"><%= alert %></p>
     <% end %>
 
-    <main class="container mx-auto mt-28 px-5 flex">
+    <main class="container">
       <%= yield %>
     </main>
   </body>
