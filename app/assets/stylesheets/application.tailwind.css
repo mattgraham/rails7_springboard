@@ -9,3 +9,12 @@
   }
 }
 */
+
+body {
+  @apply flex flex-col;
+  min-height: 100vh;
+}
+
+.container {
+  @apply flex flex-col flex-1 mx-auto max-w-4xl px-4 py-8;
+}

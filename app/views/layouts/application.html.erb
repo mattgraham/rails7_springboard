@@ -16,9 +16,13 @@
     <% elsif alert %>
       <p class="alert"><%= alert %></p>
     <% end %>
+    
+    <%= render "shared/navbar" %>
 
-    <main class="container">
+    <main class="container flex flex-col flex-auto p-2">
       <%= yield %>
     </main>
+
+    <%= render "shared/footer" %>
   </body>
 </html>
